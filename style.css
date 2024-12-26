@@ -1,0 +1,74 @@
+/* General styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered card layout */
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the header */
+h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* File input styling */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the result text */
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Image preview styling */
+#image-preview {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Style for form spacing */
+form {
+    margin-bottom: 20px;
+}
